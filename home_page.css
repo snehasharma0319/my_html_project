@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size:2.5em;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url(/images/ihome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar{
+    display: flex;
+    /* justify-content:end; */
+    background-color: rgb(131, 3, 141);
+    padding: 0.8rem 1rem;
+    border-radius: 15%;
+}
+.navitem{
+    display: inline-flex;
+    opacity:100%;
+    margin: 0 4px;
+}
+.navlink{
+    color: black;
+    padding: 0.3rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    background-color: aliceblue;
+    border: 2px solid white;
+    border-radius: 30%;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.navlink:hover{
+    background-color:rgb(4, 226, 4) ;
+    color: rgb(131, 3, 141);
+    /* padding: 0.4rem 2.2rem; */
+    border: 0%;
+
+}
+.navlink:active{
+    color: white;
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    /* padding: 2rem; */
+    padding-left: 2rem;
+    max-width: 30rem;
+    margin-top: 2rem;
+    font-size: medium;
+}
+
+.joinus_btn{
+    padding: 0.8em 1.5em;
+    border-radius: 12%;
+    color: black;
+    background-color:rgb(4, 226, 4) ;
+    font-weight: 900;
+}
+
+.joinus_btn:hover{
+    color: rgb(4, 226, 4);
+    background-color: rgb(131, 3, 141);
+    padding: 0.9em 1.8em;
+    border: 1px solid black;
+}
+
+.joinus_btn:active{
+    color: white;
+    background-color: black;
+}
+.form{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    margin: 5rem;
+    margin-right: 10rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    padding-top: 0%;
+    width: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.select{
+    padding: 5px;
+    width: 50%;
+}
+.form-btn{
+    padding: 5px;
+    border-radius: 10%;
+}
+.input_field{
+    width: 100%;
+    padding: 5px;
+    margin: 3px 0;
+}
+
+.green{
+    color: rgb(4, 226, 4);
+}
+
+.subtitle{
+    margin: 3em auto;
+}
+
+.service_container{
+    text-align: center;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-link:hover{
+    border: 3px solid black;
+}
+.about-msg{
+    text-align: center;
+    padding: 2rem 3rem;
+}
+
+.footer{
+    text-align: center;
+    padding: 2rem 3rem;
+}
